@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="A portfolio to showcase my programming abilities as well as some of the projects that I have made.">
+            <meta name="author" content="Dominic Robeson">
+            <title>RandomQouteMachine</title>
+
+            <!--==== CUSTOM FONTS ====-->
+            <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+
+            <!--====  CUSTOM CSS ====-->
+           <link rel="stylesheet" type="text/css" href="css/normalize.css">
+           <link rel="stylesheet" type="text/css" href="css/styles.css">
+           
+        </head>
+        <body>
+           <header id="logo">
+               <img src="" alt="">
+           </header>
+           <div class="home">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="title">
+                            My Quote emporium
+                        </h1>
+                        <p class="intro">
+                            This is a random quote generator built with JavaScript.
+                            Just click on each section to view quotes on your
+                            favourite topic.
+                        </p>
+                        
+                        <div class="quote-box">
+                            <div class="quote-text">
+                                    <span id="text"></span>                         
+                            </div>
+                            <div class="quotes text-center">
+                                <i id="QuotationMark1" class="fa fa-quote-left"> </i><span class = "quote"></span><i id="QuotationMark2" class="fa fa-quote-right"></i>
+                                <br/>
+                                <span class = "author"></span>
+                            </div>
+                            <br>
+                        <div class="buttons">
+                            <a id="tweet" title="Tweet this quote!" target="_blank">
+                            <img id="twitter" src="img/twitter.svg"></a>
+                            <button class="button" id="newQuote" title="click and become enlightened">New quote</button>
+                        </div>
+                        </div>
+
+                    </div>    
+                </div>               
+           </div>
+           <footer>
+               <p>by <a href="http://www.dominicrobeson.co.uk" target="_blank">Dominic Robeson</a></p>
+           </footer>
+
+            <!--==== JQUERY ====-->
+           <script src="js/jquery-3.1.0.min.js"></script>
+            <!--==== JavaScript ====-->
+            <script src="https://use.fontawesome.com/7e01fb4251.js"></script>
+            <script src="js/quote.js"></script>
+        </body>
+    </html>

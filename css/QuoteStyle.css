@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+    background-color: powderblue;
+}
+
+h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 3em;
+}
+
+.intro {
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.quote-box {
+    background-color: white;
+    width: 450px;
+    margin: 2% auto auto auto;
+    padding: 30px 90px;
+    border-radius: 7px;
+    height: auto;
+    text-align: center;
+    display: table;
+}
+.quotes {
+    font-family: arial;
+    margin-top: 25px;
+}
+.buttons {
+    padding: 20px;
+}
+#twitter{
+    height: 40px;
+    position: absolute;
+    left: 38%;
+    cursor: pointer;
+}
+#newQuote {
+    padding: 7px;
+    border-radius: 6px;
+    color: antiquewhite;
+    background-color: powderblue;
+    font-size: 1em;
+    font-weight: 900;
+    font-family: Arial;
+}
